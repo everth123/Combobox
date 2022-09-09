@@ -20,9 +20,12 @@ namespace Combobox
         private void Form1_Load(object sender, EventArgs e)
         {
             Dictionary<string, string> ldict = new Dictionary<string, string>();
-            ldict.Add("English", "En.dll");
-            ldict.Add("German", "Ge.dll");
-            ldict.Add("French", "Fr.dll");
+            ldict.Add("God Of War Ragnarok", "9 Noviembre 2022");
+            ldict.Add("Gran Turismo 7", " 4 Marzo 2022");
+            ldict.Add("Horizon Fofbidden West", "18 Febrero 2022");
+            ldict.Add("Elden Ring", " 25 Febrero 2022");
+            ldict.Add("Gotham Knights", "21 Octubre 2022");
+            ldict.Add("Scorn", "21 Octubre 2022");
             lookUpEdit1.Properties.DataSource = ldict.ToList();
             lookUpEdit1.Properties.ValueMember = "Value";
             lookUpEdit1.Properties.DisplayMember = "Key";
